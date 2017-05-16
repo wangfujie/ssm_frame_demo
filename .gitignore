@@ -1,0 +1,6 @@
+#过滤文件
+/ssm_frame_demo.iml
+
+#过滤文件夹
+/.idea/
+/target
