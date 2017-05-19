@@ -9,8 +9,8 @@
 <meta name="viewport"
 	content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<LINK rel="Bookmark" href="/pig.png" >
-<LINK rel="Shortcut Icon" href="/pig.png" />
+<LINK rel="Bookmark" href="images/iconTitle.png.png" >
+<LINK rel="Shortcut Icon" href="images/iconTitle.png.png" />
 <!--[if lt IE 9]>
 <script type="text/javascript" src="lib/html5.js"></script>
 <script type="text/javascript" src="lib/respond.min.js"></script>

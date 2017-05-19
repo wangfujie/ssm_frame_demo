@@ -14,4 +14,10 @@ public class MyUserController {
     @Autowired
     private MyUserService userService;
 
+    @RequestMapping("/login")
+    public int loginCheck(String login_name , String password){
+
+        return 1;
+    }
+
 }
