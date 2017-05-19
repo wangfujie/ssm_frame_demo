@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.common.mapper.MyUserMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.common.entity.MyUser">
+		<id column="uuid" property="uuid" />
+		<result column="login_name" property="login_name" />
+		<result column="password" property="password" />
+		<result column="role_type" property="role_type" />
+		<result column="role_name" property="role_name" />
+		<result column="mobile" property="mobile" />
+		<result column="email" property="email" />
+		<result column="sex" property="sex" />
+		<result column="head_img" property="head_img" />
+		<result column="register_time" property="register_time" />
+		<result column="login_time" property="login_time" />
+	</resultMap>
+
+</mapper>

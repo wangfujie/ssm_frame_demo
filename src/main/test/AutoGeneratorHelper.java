@@ -65,16 +65,14 @@ public class AutoGeneratorHelper {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("wang123");
-        dsc.setUrl("jdbc:mysql://localhost:3306/yzc_manager?characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/ssm_frame_demo?characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
 //        strategy.setTablePrefix(new String[]{"finance_"});// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        strategy.setInclude(new String[]{"yzc_born_record","yzc_breed_record","yzc_class","yzc_clean_record","yzc_deal_pig","yzc_death_record",
-                "yzc_department","yzc_employee","yzc_feed_record","yzc_feeds","yzc_grade","yzc_ill_record","yzc_medicine_record",
-                "yzc_orders","yzc_partner","yzc_pig","yzc_pregnant_record","yzc_purchase_record","yzc_repair_record","yzc_step","yzc_variety"}); // 需要生成的表
+        strategy.setInclude(new String[]{"my_user"}); // 需要生成的表
         // strategy.setExclude(new String[]{"test"}); // 排除生成的表
         // 字段名生成策略
         strategy.setFieldNaming(NamingStrategy.nochange);
