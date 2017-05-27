@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <html>
 <head>
     <LINK rel="Bookmark" href="static/images/iconTitle.png" >
@@ -10,7 +11,7 @@
 <script type="text/javascript">
     $(function () {
         $.ajax({
-            url:"",
+            url:"/user/myUser/login.do",
             Type:"POST",
             data:{"login_name": "zhang3", "password": "123456"},
             success:function(data){
