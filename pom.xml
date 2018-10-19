@@ -18,7 +18,7 @@
     <junit.version>4.12</junit.version>
 
     <!-- spring版本号 -->
-    <spring.version>4.3.3.RELEASE</spring.version>
+    <spring.version>4.3.18.RELEASE</spring.version>
     <freemarker.version>2.3.20</freemarker.version>
     <aspectjweaver.version>1.6.11</aspectjweaver.version>
 
