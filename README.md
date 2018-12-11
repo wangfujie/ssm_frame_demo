@@ -1,2 +1,3 @@
 # ssm_frame_demo
-ssm框架
+spring,spring-mvc,mybatis
+maven
